@@ -55,9 +55,10 @@ p {
 }
 
 .radio {
-  display: none;
+  opacity: 0;
   width: 0;
   height: 0;
+  visibility: hidden;
 }
 
 .radio1:checked ~ .overflow .slider-list {
